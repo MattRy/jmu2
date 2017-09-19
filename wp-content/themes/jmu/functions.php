@@ -38,37 +38,6 @@ function jmu_load_hyphen_fix() {
     wp_enqueue_script( 'hyphen_fix', CHILD_URL . '/lib/js/hyphen_fix.js', array( 'jquery' ), '1.0.0', TRUE );
 }
 
-?>
-
-<script>
-/* When the user clicks on the button, 
-toggle between hiding and showing the dropdown content */
-// function myFunction() {
-    // document.getElementByClassName("myDropdown").classList.toggle("show");
-// }
-
-// // Close the dropdown if the user clicks outside of it
-// window.onclick = function(event) {
-//   if (!event.target.matches('.dropbtn')) {
-
-//     var dropdowns = document.getElementsByClassName("dropdown-content");
-//     var i;
-//     for (i = 0; i < dropdowns.length; i++) {
-//       var openDropdown = dropdowns[i];
-//       if (openDropdown.classList.contains('show')) {
-//         openDropdown.classList.remove('show');
-//       }
-//     }
-//   }
-// }
-// $(".menu-item-has-children").on("click", function() {
-//   $(this).toggleClass("open-sub-menu");
-// });
-</script>
-
-<?php
-
-
 // Add new image sizes
 add_image_size( 'Blog Thumbnail', 269, 137, TRUE );
 add_image_size( 'logo', 213, 59, TRUE );
