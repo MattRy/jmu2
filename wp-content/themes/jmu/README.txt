@@ -12,4 +12,12 @@ This WordPress theme was built by Web Savvy Marketing. If you run into any issue
 
 <strong>Sidebar.</strong> Customize the sidebar widgets from Appearance > Widgets. <a href="http://en.support.wordpress.com/widgets/">More information on Sidebars.</a>
 
+<strong>Update Sept 2017</strong>
+Adding in change to WSM-sidebar-menu to support vertical animated menu using navgoco 3rd party plugin.
+
+On Navgoco Menu Plugin Options screen, set the "Add Menu ID or Class" value to the ID associated with the menubeing used in the wsm-sidebar-menu display. 
+
+E.g. If using Main Menu for the sidebar menu, use the ID #menu-main-menu.
+If using Nav Menu for the sidebar menu, the ID will be #menu-nav-menu.
+If using Gateway Pages menu, the ID will be #menu-gateway-pages.
 </div>
